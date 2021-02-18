@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="70.743" tests="23" errors="0" skipped="16" failures="4">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/Users/niranjanaranala/Downloads/Selenium-Training-Softwares/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/niranjanaranala/selenium-workspace/MySeleniumProject/target/test-classes:/Users/niranjanaranala/selenium-workspace/MySeleniumProject/target/classes:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/niranjanaranala/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/niranjanaranala/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/niranjanaranala/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/niranjanaranala/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/niranjanaranala/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/niranjanaranala/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/niranjanaranala/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/niranjanaranala/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/niranjanaranala/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/niranjanaranala/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/niranjanaranala/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/niranjanaranala/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/niranjanaranala/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/niranjanaranala/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/niranjanaranala/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/niranjanaranala/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/niranjanaranala/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/niranjanaranala/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/niranjanaranala/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/niranjanaranala/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/niranjanaranala/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/niranjanaranala/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/niranjanaranala/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/Users/niranjanaranala/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/Users/niranjanaranala/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar:/Users/niranjanaranala/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar:/Users/niranjanaranala/.m2/repository/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-all/1.13/batik-all-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/Users/niranjanaranala/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/Users/niranjanaranala/.m2/repository/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-codec/1.13/batik-codec-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/Users/niranjanaranala/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/niranjanaranala/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-extension/1.13/batik-extension-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-gui-util/1.13/batik-gui-util-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-rasterizer-ext/1.13/batik-rasterizer-ext-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-rasterizer/1.13/batik-rasterizer-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-slideshow/1.13/batik-slideshow-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-squiggle-ext/1.13/batik-squiggle-ext-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-squiggle/1.13/batik-squiggle-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svgbrowser/1.13/batik-svgbrowser-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svgrasterizer/1.13/batik-svgrasterizer-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-swing/1.13/batik-swing-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-transcoder/1.13/batik-transcoder-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg/1.13/batik-ttf2svg-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/Users/niranjanaranala/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/niranjanaranala/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/niranjanaranala/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.15/poi-ooxml-schemas-3.15.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-scratchpad/5.0.0/poi-scratchpad-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-examples/5.0.0/poi-examples-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/ooxml-security/1.1/ooxml-security-1.1.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/niranjanaranala/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/niranjanaranala/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-ooxml-full/5.0.0/poi-ooxml-full-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar:/Users/niranjanaranala/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/niranjanaranala/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/niranjanaranala/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/niranjanaranala/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/niranjanaranala/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/niranjanaranala/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/niranjanaranala/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/niranjanaranala/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/niranjanaranala/selenium-workspace/MySeleniumProject/target/surefire/surefirebooter4497743146676234195.jar /Users/niranjanaranala/selenium-workspace/MySeleniumProject/target/surefire 2021-02-17T21-25-05_831-jvmRun1 surefire4071914086180992204tmp surefire_05684189901667300763tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/niranjanaranala/selenium-workspace/MySeleniumProject/target/test-classes:/Users/niranjanaranala/selenium-workspace/MySeleniumProject/target/classes:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/niranjanaranala/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/niranjanaranala/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/niranjanaranala/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/niranjanaranala/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/niranjanaranala/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/niranjanaranala/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/niranjanaranala/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/niranjanaranala/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/niranjanaranala/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/niranjanaranala/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/niranjanaranala/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/niranjanaranala/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/niranjanaranala/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/niranjanaranala/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/niranjanaranala/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/niranjanaranala/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/niranjanaranala/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/niranjanaranala/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/niranjanaranala/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/niranjanaranala/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/niranjanaranala/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/niranjanaranala/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/niranjanaranala/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/niranjanaranala/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/Users/niranjanaranala/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/Users/niranjanaranala/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar:/Users/niranjanaranala/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar:/Users/niranjanaranala/.m2/repository/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-all/1.13/batik-all-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/Users/niranjanaranala/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/Users/niranjanaranala/.m2/repository/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-codec/1.13/batik-codec-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/Users/niranjanaranala/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/niranjanaranala/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-extension/1.13/batik-extension-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-gui-util/1.13/batik-gui-util-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-rasterizer-ext/1.13/batik-rasterizer-ext-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-rasterizer/1.13/batik-rasterizer-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-slideshow/1.13/batik-slideshow-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-squiggle-ext/1.13/batik-squiggle-ext-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-squiggle/1.13/batik-squiggle-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svgbrowser/1.13/batik-svgbrowser-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-svgrasterizer/1.13/batik-svgrasterizer-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-swing/1.13/batik-swing-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-transcoder/1.13/batik-transcoder-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg/1.13/batik-ttf2svg-1.13.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/Users/niranjanaranala/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/niranjanaranala/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/niranjanaranala/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.15/poi-ooxml-schemas-3.15.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-scratchpad/5.0.0/poi-scratchpad-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-examples/5.0.0/poi-examples-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/ooxml-security/1.1/ooxml-security-1.1.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/niranjanaranala/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/niranjanaranala/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/niranjanaranala/.m2/repository/org/apache/poi/poi-ooxml-full/5.0.0/poi-ooxml-full-5.0.0.jar:/Users/niranjanaranala/.m2/repository/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar:/Users/niranjanaranala/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/niranjanaranala/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/niranjanaranala/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/niranjanaranala/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/niranjanaranala/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/niranjanaranala/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/niranjanaranala/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/niranjanaranala/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/niranjanaranala"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/niranjanaranala/selenium-workspace/MySeleniumProject"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/niranjanaranala/selenium-workspace/MySeleniumProject/target/surefire/surefirebooter4497743146676234195.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="niranjanaranala"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/niranjanaranala/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/n4/h_zvpt3s2v18xl3nxr_scnph0000gn/T/"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="/Users/niranjanaranala/selenium-workspace/MySeleniumProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/niranjanaranala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="/Users/niranjanaranala/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.qa.tests.LoginPageTests" time="0.057">
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/index.html'
+Navigated to:'https://classic.freecrm.com/index.html'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 44985
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 17, 2021 9:25:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.tests.LoginPageTests" time="1.868">
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/index.html'
+Navigated to:'https://classic.freecrm.com/index.html'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on MAC (79a9ab439105d1f950e3ba048eaed5a5)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on MAC (79a9ab439105d1f950e3ba048eaed5a5)] -> xpath: //input[@type='submit']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 38691
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 17, 2021 9:25:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitle" classname="com.qa.tests.HomePageTests" time="0.01">
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/index.html'
+Navigated to:'https://classic.freecrm.com/index.html'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on MAC (872621a30aeadcbe9fd449e4a6736a35)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on MAC (872621a30aeadcbe9fd449e4a6736a35)] -> xpath: //input[@type='submit']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 37386
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 17, 2021 9:25:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUsernameTest" classname="com.qa.tests.HomePageTests" time="10.634">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(text(), &apos;Demo User&apos;)]&quot;}&#10;  (Session info: chrome=88.0.4324.150)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;niranjans-mbp.lan&apos;, ip: &apos;fe80:0:0:0:10f7:e683:748e:56ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d40a2e6dafba733cc2cae09b224687c2&#10;*** Element info: {Using=xpath, value=//*[contains(text(), &apos;Demo User&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Demo User')]"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'niranjans-mbp.lan', ip: 'fe80:0:0:0:10f7:e683:748e:56ef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d40a2e6dafba733cc2cae09b224687c2
+*** Element info: {Using=xpath, value=//*[contains(text(), 'Demo User')]}
+	at com.qa.tests.HomePageTests.verifyUsernameTest(HomePageTests.java:42)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/index.html'
+Navigated to:'https://classic.freecrm.com/index.html'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on MAC (d40a2e6dafba733cc2cae09b224687c2)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on MAC (d40a2e6dafba733cc2cae09b224687c2)] -> xpath: //input[@type='submit']]
+Trying to find Element By : By.xpath: //*[contains(text(), 'Demo User')]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Demo User')]"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'niranjans-mbp.lan', ip: 'fe80:0:0:0:10f7:e683:748e:56ef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d40a2e6dafba733cc2cae09b224687c2
+*** Element info: {Using=xpath, value=//*[contains(text(), 'Demo User')]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 35990
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 17, 2021 9:25:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDealsLinkTest" classname="com.qa.tests.HomePageTests" time="10.752">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(text(), &apos;Deals&apos;)]&quot;}&#10;  (Session info: chrome=88.0.4324.150)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;niranjans-mbp.lan&apos;, ip: &apos;fe80:0:0:0:10f7:e683:748e:56ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3976772ccd4e5d4ebe947320ed9b6106&#10;*** Element info: {Using=xpath, value=//*[contains(text(), &apos;Deals&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Deals')]"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'niranjans-mbp.lan', ip: 'fe80:0:0:0:10f7:e683:748e:56ef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3976772ccd4e5d4ebe947320ed9b6106
+*** Element info: {Using=xpath, value=//*[contains(text(), 'Deals')]}
+	at com.qa.tests.HomePageTests.verifyDealsLinkTest(HomePageTests.java:48)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/index.html'
+Navigated to:'https://classic.freecrm.com/index.html'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on MAC (3976772ccd4e5d4ebe947320ed9b6106)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on MAC (3976772ccd4e5d4ebe947320ed9b6106)] -> xpath: //input[@type='submit']]
+Trying to find Element By : By.xpath: //*[contains(text(), 'Deals')]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Deals')]"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'niranjans-mbp.lan', ip: 'fe80:0:0:0:10f7:e683:748e:56ef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3976772ccd4e5d4ebe947320ed9b6106
+*** Element info: {Using=xpath, value=//*[contains(text(), 'Deals')]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 38648
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 17, 2021 9:25:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.HomePageTests" time="18.204">
+    <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1228, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;niranjans-mbp.lan&apos;, ip: &apos;fe80:0:0:0:10f7:e683:748e:56ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2104357e09732cb8b609c6a7d8d3979e" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1228, 117). Other element would receive the click: <div id="preloader" style="opacity: 1;">...</div>
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'niranjans-mbp.lan', ip: 'fe80:0:0:0:10f7:e683:748e:56ef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2104357e09732cb8b609c6a7d8d3979e
+	at com.qa.tests.HomePageTests.setUp(HomePageTests.java:30)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/index.html'
+Navigated to:'https://classic.freecrm.com/index.html'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on MAC (2104357e09732cb8b609c6a7d8d3979e)] -> xpath: //input[@type='submit']]
+Exception occured: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1228, 117). Other element would receive the click: <div id="preloader" style="opacity: 1;">...</div>
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'niranjans-mbp.lan', ip: 'fe80:0:0:0:10f7:e683:748e:56ef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2104357e09732cb8b609c6a7d8d3979e
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 48291
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 17, 2021 9:26:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" classname="com.qa.tests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.tests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.ContactsPageTests" time="16.085">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Contacts&apos;)]&quot;}&#10;  (Session info: chrome=88.0.4324.150)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;niranjans-mbp.lan&apos;, ip: &apos;fe80:0:0:0:10f7:e683:748e:56ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9fa6c61a9b77b1de29a8cad0582c0b5f&#10;*** Element info: {Using=xpath, value=//a[contains(text(), &apos;Contacts&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Contacts')]"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'niranjans-mbp.lan', ip: 'fe80:0:0:0:10f7:e683:748e:56ef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fa6c61a9b77b1de29a8cad0582c0b5f
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Contacts')]}
+	at com.qa.tests.ContactsPageTests.setUp(ContactsPageTests.java:36)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.freecrm.com/index.html'
+Navigated to:'https://classic.freecrm.com/index.html'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on MAC (9fa6c61a9b77b1de29a8cad0582c0b5f)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on MAC (9fa6c61a9b77b1de29a8cad0582c0b5f)] -> xpath: //input[@type='submit']]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Contacts')]"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'niranjans-mbp.lan', ip: 'fe80:0:0:0:10f7:e683:748e:56ef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: /var/folders/n4/h_zvpt3s2v1...}, goog:chromeOptions: {debuggerAddress: localhost:58491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fa6c61a9b77b1de29a8cad0582c0b5f
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Contacts')]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.27 (6347fe8bf1e48bd0c54d07dc55ca011cf40861c9-refs/branch-heads/4324@{#450}) on port 44390
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 17, 2021 9:25:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateCreateNewContact[Mr, M_NC, M, A1](1)" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateCreateNewContact[Miss, MS_NC, MS, A2](2)" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateCreateNewContact[Dr., DR_NC, DR, A3](3)" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyContactsLabel" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySingleContactsCheckbox" classname="com.qa.tests.ContactsPageTests" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

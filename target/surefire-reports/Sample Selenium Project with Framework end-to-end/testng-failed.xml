@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Sample Selenium Project with Framework end-to-end]" parallel="none">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test name="Sample test(failed)" parallel="none">
+    <classes>
+      <class name="com.qa.tests.HomePageTests">
+        <methods>
+          <include name="verifyDealsLinkTest"/>
+          <include name="setUp"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyUsernameTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.HomePageTests -->
+      <class name="com.qa.tests.ContactsPageTests">
+        <methods>
+          <include name="validateCreateNewContact"/>
+          <include name="setUp"/>
+          <include name="verifySingleContactsCheckbox"/>
+          <include name="verifyContactsLabel"/>
+        </methods>
+      </class> <!-- com.qa.tests.ContactsPageTests -->
+      <class name="com.qa.tests.LoginPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginPageTests -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Sample Selenium Project with Framework end-to-end] -->
